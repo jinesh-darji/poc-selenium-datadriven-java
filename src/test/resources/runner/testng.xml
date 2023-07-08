@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="listeners.CustomListeners" />
+	</listeners>
+
+	<test thread-count="5" name="Test Case 1 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase1Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test Case 2 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase2Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test Case 3 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase3Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test Case 4 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase4Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test Case 5 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase5Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test Case 6 Test">
+		<classes>
+			<class name="testcases.smokesuite.TestCase6Test" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
